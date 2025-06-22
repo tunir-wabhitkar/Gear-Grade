@@ -2,7 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  trailingSlash: true, // recommended for Netlify static export
+  trailingSlash: true, // ensures consistent routing for static files
 
   typescript: {
     ignoreBuildErrors: true,
